@@ -3,14 +3,24 @@ import './App.css';
 import styled from 'styled-components'
 import Header from './header';
 import { Banner } from './banner';
+import { About } from './about';
+import { Services } from './services';
+import { Portfolio } from './portfolio';
+import { Contact } from './contact';
+import Routes from './routes';
 
 
-function App() {
+function App(history) {
   return (
     <div>
-      <Header/>
-      <Banner
-      />
+      
+      <Routes />
+      {/* <Banner
+      /> */}
+      {/* <About /> */}
+      {/* <Services /> */}
+      {/* <Portfolio /> */}
+      {/* <Contact /> */}
     </div>
   );
 }

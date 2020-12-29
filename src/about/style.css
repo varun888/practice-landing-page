@@ -1,0 +1,143 @@
+.background_about_section{
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.div_before_about_section{
+    margin-top: 200px;
+}
+.about_section_heading{
+    color: #3b429e;
+    font-size: 34px;
+    font-weight: 500;
+    margin-top: 70px;
+}
+.about_section_heading::after{
+    content: "";
+    display: block;
+    width: 19%;
+    height: 3px;
+    margin:10px 0px;
+    background-color: #eb5522;
+}
+.get_in_touch_section{
+    margin-top: 0px !important;
+}
+.about_section_paragraph{
+    font-size: 17px;
+    color: #313131;
+    margin-top: 27px;
+}
+.div_before_our_accomplishments{
+    margin-top: 150px;
+}
+.about_section_img{
+    width: 100%;
+    margin-top: 100px;
+}
+.after_about_section_img{
+    width: 100%;
+}
+.button_about_section{
+    background-color: #fff;
+    color: #3b429e;
+    border: 3px solid #eb5522;
+    border-radius: 50px;
+    width: 20%;
+    height: 38px;
+    outline: none !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+.button_about_section:hover{
+    background-color: #eb5522;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+
+}
+.about_section_paragraph_2{
+    font-size: 17px;
+    color: #313131;
+}
+.heading_after_about_section{
+    color: #3b429e;
+    font-size: 34px;
+}
+.heading_after_about_section::after{
+    content: "";
+    display: block;
+    width: 19%;
+    height: 3px;
+    margin:10px 0px;
+    background-color: #eb5522;
+}
+.paragraph_after_about_section{
+    font-size: 17px;
+    color: #313131;
+    margin-top: 27px;
+}
+.paragraph_2_after_about_section{
+    font-size: 17px;
+    color: #313131;
+}
+.our_accomplishments_section{
+    font-size: 34px;
+    color: #3b429e;
+    margin-top: 80px;
+}
+.our_accomplishments_section::after{
+    content: "";
+    display: block;
+    width: 10%;
+    height: 3px;
+    margin:10px 0px;
+    background-color: #eb5522;
+}
+.background_our_accomplishments{
+    /* background-image: url(/images/slider-bgimage.png); */
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-bottom: 185px;
+}
+.icons_our_accomplishments_section svg{
+    font-size: 60px;
+    color: #3b429e;
+    /* margin-top: 20px; */
+}
+.icons_border{
+    width: 150px;
+    height: 150px;
+    /* color: #eb5522; */
+    border-radius: 50%;
+    border: 4px solid #eb5522;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.text_image{
+    color: #3b429e;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media only screen and (min-width:320px) and (max-width:400px){
+    .button_about_section{
+        width: 25%;
+    }
+}
+
+
+@media only screen and (max-width:767px){
+   
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .button_about_section{
+        width: 100%;
+    }
+}

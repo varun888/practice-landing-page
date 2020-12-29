@@ -1,0 +1,239 @@
+.heading_our_services_section{
+    font-size: 34px;
+    color: #3b429e;
+    font-weight: bolder;
+    margin-top: 80px;
+}
+.heading_our_services_section::after{
+    content: "";
+    display: block;
+    width: 9%;
+    height: 3px;
+    margin:10px 0px;
+    background-color: #eb5522;
+}
+.paragraph_our_services_section{
+    line-height: 30px;
+    font-size: 17px;
+    margin-top: 25px !important;
+}
+.heading_after_our_services_section{
+    color: #3b429e;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 60px;
+}
+.slick-slide img{
+    width: 130px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+.slick-slide_img_other{
+    margin-top: -15px;
+    width: 100%;
+    height: 200px;
+    display: flex !important;
+    align-items: center;
+}
+.slick_slider_2 img{
+    width: 70px !important;
+    margin: 0 auto;
+    
+}
+.slick_slider_2{
+    width: 100%;
+    text-align: center;
+}
+.slick_slider_2 h5{
+    font-weight: 500;
+    margin-top: 10px;
+    /* display:flex;
+    margin: 0 auto; */
+}
+.heading_after_our_services_section::after{
+    content: "";
+    display: block;
+    width: 8%;
+    height: 3px;
+    margin:10px 0px;
+    background-color: #eb5522;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.heading_after_1st_slider{
+    color: #3b429e;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 125px;
+}
+.heading_after_1st_slider::after{
+    content: "";
+    display: block;
+    width: 8%;
+    height: 3px;
+    margin:10px 0px;
+    background-color: #eb5522;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.paragraph_after_2nd_slider{
+    font-size: 17px;
+    color: #313131;
+    margin-top: 30px;
+}
+.left_section_paragraph{
+    margin-top: 80px;
+}
+.web_design_img{
+    width: 100%;
+}
+.div_before_graphic_design{
+    margin-top:50px;
+}
+.graphic_design_section{
+    color: #3b429e;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.graphic_design_section:hover{
+    text-decoration: none !important;
+}
+.graphic_design_section::after{
+    content: "";
+    display: block;
+    width: 15%;
+    height: 3px;
+    margin:10px 0px;
+    background-color: #eb5522;
+    /* margin: 0 auto;
+    margin-top: 20px; */
+}
+.paragraph_graphic_design_section{
+    margin-top: 15px;
+    font-size: 17px;
+    color: #313131;
+}
+.right_mobile_design_section{
+    margin-top: 80px;
+}
+.div_before_mobile_app_design{
+    margin-top: 50px;
+}
+.mobile_design_section{
+    color: #3b429e;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.mobile_app_design_img{
+    width: 100%;
+}
+.mobile_design_section:hover{
+    text-decoration: none !important;
+
+}
+.mobile_design_section::after{
+    content: "";
+    display: block;
+    width: 15%;
+    height: 3px;
+    margin:10px 0px;
+    background-color: #eb5522;
+}
+.paragraph_mobile_design_section{
+    font-size: 17px;
+    color: #313131;
+    margin-top: 15px;
+}
+.div_before_web_design_section{
+    margin-top: 50px;
+}
+.web_design_section{
+    margin-top: 80px;
+}
+.web_design_section_img{
+    width: 100%;
+}
+.web_design_section_left{
+    color: #3b429e;
+    font-weight: bolder;
+    font-size: 24px;
+
+}
+.web_design_section_left:hover{
+    text-decoration: none !important;
+}
+.web_design_section_left::after{
+    content: "";
+    display: block;
+    width: 10%;
+    height: 3px;
+    margin:10px 0px;
+    background-color: #eb5522;
+}
+.last_section_img{
+    width: 100%;
+}
+.paragraph_web_design_section{
+    font-size: 17px;
+    color: #313131;
+    margin-top: 15px;
+}
+.div_before_digital_marketing_section{
+    margin-top: 50px;
+}
+.digital_marketing_section{
+    margin-top: 80px;
+}
+.digital_marketing_section_right{
+    color: #3b429e;
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+.digital_marketing_section_right:hover{
+    text-decoration: none !important;
+}
+.digital_marketing_section_right::after{
+    content: "";
+    display: block;
+    width: 10%;
+    height: 3px;
+    margin:10px 0px;
+    background-color: #eb5522;
+}
+.paragraph_digital_marketing_section{
+    margin-top:15px;
+}
+.get_in_touch_section{
+    /* margin-top: 50px !important; */
+    /* margin-bottom: 50px; */
+    padding-bottom: 75px;
+}
+.footer_section{
+    
+}
+.footer_svg{
+    margin: -22px 15px !important;
+}
+.slick-prev{
+    z-index: 999;
+}
+
+
+@media only screen and (max-width:767px){
+    .slick-slide img{
+        width: 200px;
+    }
+    .slick-slide_img_other{
+        margin: 0 auto;
+    }
+    .footer_svg{
+        margin: 0px 15px !important;
+    }
+    .slick_slider_2{
+        margin-top: 20px;
+    }
+    .fonts_footer{
+        margin-top: 6px;
+    }
+}

@@ -1,7 +1,7 @@
 .banner_fullwrap{
     padding: 100px 0;
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: top0right;
     width: 100%;
 }
 
@@ -25,10 +25,11 @@
 }
 .button_learn_more{
     color: blue;
-    border: 2px solid #e74a21;
+    border: 3px solid #e74a21;
     border-radius: 25px;
     margin-right: 28px;
-    padding: 4px 18px;
+    padding: 8px 32px;
+    font-weight: 500;
 }
 .button_learn_more:hover{
     text-decoration: none;
@@ -38,9 +39,11 @@
 }
 .button_get_intouch{
     color: blue;
-    border: 2px solid #e74a21;
+    border: 3px solid #e74a21;
     border-radius: 25px;
-    padding: 4px 18px;
+    padding: 8px 32px;
+    font-weight: 500;
+
 }
 .button_get_intouch:hover{
     text-decoration: none;
@@ -217,6 +220,7 @@
 }
 .get_in_touch_section{
     background-color: #d6ddfd;
+    /* margin-top:0px !important; */
 }
 .heading_get_in_touch_section{
     color: #3b429e;
@@ -283,7 +287,7 @@
     margin-bottom: 50px;
 }
 .input_get_in_touch_section{
-    width: 180px;
+    width: 100%;
     margin-top: 10px;
 }
 .paragraph_card{
@@ -317,6 +321,7 @@
 .footer_section{
     background-color: #535353;
     padding-top: 10px;
+    margin-top: 0px !important;
 }
 .paragraph_footer_section{
     color: #cacaca;
@@ -357,19 +362,58 @@
     justify-content: center;
 }
 
+@media only screen and (min-width:320px) and (max-width:400px){
+    .button_learn_more{
+        margin-right: 6px;
+    }
+    .button_get_intouch{
+        padding: 8px 27px;
+    }
+}
+
 
 @media only screen and (max-width:767px){
     .fullwrap_header{
         flex-wrap: wrap;
     }
+    .navbar-light .navbar-toggler{
+        position: fixed;
+        right: 10px;
+        top: 35px;
+    }
+    .form-control{
+        margin-bottom: 10px !important;
+    }
     .card_get_in_touch_section{
         margin-left: 0 !important;
+    }
+    .card{
+        width: 100%;
+    }
+    .image{
+        margin-top: -100px;
+        margin-right: 37px;
+    }
+    .row{
+        margin-left: 0px;
     }
     .href_footer{
         margin-left: 0 !important;
     }
     .fonts_footer{
         margin: 0 !important;
+        font-size: 22px;
+    }
+    .href_footer::after{
+        content: "|";
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .slick-next{
+        margin-right: 25px;
+    }
+    .slick-prev{
+        margin-left: 25px;
     }
     .button_after_portfolio_section{
         width: 100% !important;
@@ -387,6 +431,12 @@
         margin-top: 0;
         margin-left: 0 !important;
         margin: 0 auto !important;
+    }
+    .footer_svg{
+        /* margin: 0px 6px; */
+        border: 2px solid #fff;
+        width: 40px;
+        height:40px;
     }
     .heading_choose_section{
         margin-top: 22px;
@@ -415,13 +465,48 @@
         position: absolute;
         right: 0px;
     }
+    .input_get_in_touch_section{
+        margin: 2px auto !important;
+    }
 }
 
-@media only screen and (max-width:1024px){
+@media only screen and (min-width:768px) and (max-width:1024px){
     .fonts_footer{
         margin:20px 0 0 40px;
+        font-size: 22px;
     }
     .href_footer{
         margin-left: 0;
+    }
+    .card_get_in_touch_section{
+        margin-left: 0;
+        width: 355px;
+    }
+    .button_after_portfolio_section{
+        width: 100%;
+    }
+    .image{
+        margin-top: -155px;
+    }
+    .information_service_section2{
+        margin-left: 0;
+    }
+    .information_service_section3{
+        margin-left: -28px;
+    }
+    .card{
+        height: 80%;
+    }
+    .href_footer::after{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .button_get_intouch{
+        padding: 8px 27px;
+    }
+    .footer_svg{
+        border: 2px solid #fff;
+        width: 50px;
+        height:50px;
     }
 }

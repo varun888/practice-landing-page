@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link, useHistory } from 'react-router-dom';
 import {
     Collapse,
     Navbar,
@@ -12,11 +13,11 @@ import {
 } from 'reactstrap';
 import "./style.css";
 
-const Header = (props) => {
+const Header = ({ history }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => setIsOpen(!isOpen);
-
+    // const history = useHistory()
     return (
 
         <div className="header_start">
@@ -32,20 +33,30 @@ const Header = (props) => {
 
                             <div className="fullwrap_header">
 
-                                <NavItem className="navlinks_header">
-                                    <NavLink className="navlinks_names" href="/components/">Home</NavLink>
+                                <NavItem onClick={() => setIsOpen(false)} className="navlinks_header">
+                                    <Link to={`/`}>
+                                        <NavLink className="navlinks_names" href="/components/">Home</NavLink>
+                                    </Link>
                                 </NavItem>
-                                <NavItem className="navlinks_header">
-                                    <NavLink className="navlinks_names" href="/components/">About</NavLink>
+                                <NavItem onClick={() => setIsOpen(false)}  className="navlinks_header">
+                                    <Link to={`/about`}>
+                                        <NavLink className="navlinks_names" href="">About</NavLink>
+                                    </Link>
                                 </NavItem>
-                                <NavItem className="navlinks_header">
-                                    <NavLink className="navlinks_names" href="/components/">Services</NavLink>
+                                <NavItem onClick={() => setIsOpen(false)}  className="navlinks_header">
+                                    <Link to={`/services`}>
+                                        <NavLink className="navlinks_names" href="">Services</NavLink>
+                                    </Link>
                                 </NavItem>
-                                <NavItem className="navlinks_header">
-                                    <NavLink className="navlinks_names" href="/components/">Portfolio</NavLink>
+                                <NavItem onClick={() => setIsOpen(false)}  className="navlinks_header">
+                                    <Link to={`/portfolio`}>
+                                        <NavLink className="navlinks_names" href="">Portfolio</NavLink>
+                                    </Link>
                                 </NavItem>
-                                <NavItem className="navlinks_header">
-                                    <NavLink className="navlinks_names_last" href="/components/">Contact</NavLink>
+                                <NavItem onClick={() => setIsOpen(false)}  className="navlinks_header">
+                                    <Link to={`/contact`}>
+                                        <NavLink className="navlinks_names_last" href="">Contact</NavLink>
+                                    </Link>
                                 </NavItem>
                             </div>
 

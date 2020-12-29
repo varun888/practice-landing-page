@@ -22,7 +22,7 @@ export const Banner = (props) => {
     };
     return (
         <>
-            <div className="banner_fullwrap" style={{ backgroundImage: 'url(/images/bgimage.png)' }}>
+            <div className="banner_fullwrap" style={{ backgroundImage: 'url(/images/bgimage.png);background-position: top-right;' }}>
                 <Container>
                     <Row>
                         <Col md="6">
@@ -201,11 +201,11 @@ export const Banner = (props) => {
                 <Container>
                     <Row>
                         <Col md="6">
-                            <a className="href_footer" href="index.html">Home</a>
-                            <a className="href_footer" href="about.html">About</a>
-                            <a className="href_footer" href="services.html">Services</a>
-                            <a className="href_footer" href="portfolio.html">Portfolio</a>
-                            <a className="href_footer" href="contact.html">Contact</a>
+                            <a className="href_footer" href="index">Home</a>
+                            <a className="href_footer" href="about">About</a>
+                            <a className="href_footer" href="services">Services</a>
+                            <a className="href_footer" href="portfolio">Portfolio</a>
+                            <a className="href_footer" href="contact">Contact</a>
                             <p className="paragraph_footer_section">Copyright @ 2019-2020 Coder's Corner - All rights reserved.</p>
                         </Col>
                         <Col md="6">
