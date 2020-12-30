@@ -33,7 +33,9 @@ const Header = ({ history }) => {
 
                             <div className="fullwrap_header">
 
-                                <NavItem onClick={() => setIsOpen(false)} className="navlinks_header">
+                                <NavItem onClick={() => {
+                                    // window.top.location.href()
+                                    setIsOpen(false)}} className="navlinks_header">
                                     <Link to={`/`}>
                                         <NavLink className="navlinks_names" href="/components/">Home</NavLink>
                                     </Link>

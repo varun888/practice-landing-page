@@ -9,12 +9,14 @@ import { Banner } from "./banner";
 import { Contact } from "./contact";
 import Header from "./header";
 import { Portfolio } from "./portfolio";
+import ScrollToTop from "./ScrollToTop";
 import { Services } from "./services";
 
 export default function Routes() {
     return (
         <Router>
-            <Header />
+            <ScrollToTop />
+                <Header />
                 <Route path="/" exact>
                     <Banner />
                 </Route>
@@ -30,8 +32,7 @@ export default function Routes() {
                 <Route path="/contact">
                     <Contact />
                 </Route>
-                
-                
+
         </Router>
     );
 }

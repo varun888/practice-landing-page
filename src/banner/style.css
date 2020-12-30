@@ -367,7 +367,10 @@
         margin-right: 6px;
     }
     .button_get_intouch{
-        padding: 8px 27px;
+        padding: 8px 23px;
+    }
+    .button_learn_more{
+        padding: 8px 23px;
     }
 }
 
@@ -502,7 +505,7 @@
         margin-right: 10px;
     }
     .button_get_intouch{
-        padding: 8px 27px;
+        padding: 8px 26px;
     }
     .footer_svg{
         border: 2px solid #fff;

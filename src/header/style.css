@@ -18,17 +18,18 @@
     padding: 14px 0;
 }
 .navlinks_header{
-    padding: 10px;
-   
+    
 }
 .navlinks_names{
     color: blue !important;
     padding: 10px;
     font-size: 18px;
-    
+    border-radius: 25px;
+    padding: 4px 18px !important;   
 }
 .navlinks_names:hover{
-    color: #e74a21 !important;
+    background-color: #e74a21 !important;
+    color: #fff !important;
     transition: 0.3s ease-in-out;
 }
 .header_start .navbar-nav{
@@ -39,9 +40,9 @@
     color: blue !important;
     padding: 10px;
     font-size: 18px;
-    border: 3px solid #e74a21;
+    /* border: 3px solid #e74a21; */
     border-radius: 25px;
-    padding: 4px 18px !important;
+    padding: 6px 18px !important;
     font-weight: normal;
 }
 .navlinks_names_last:hover{

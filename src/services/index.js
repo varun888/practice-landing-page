@@ -21,9 +21,6 @@ export const Services = (props) => {
         slidesToShow: 5,
         slidesToScroll: 1,
         arrows: true,
-        // prevArrow: document.getElementsByClassName("slick-slide img"),
-        // nextArrow: document.getElementsByClassName("slick-slide img"),
-        // variableWidth: false,
         responsive: [
             {
               breakpoint: 1024,
@@ -32,8 +29,6 @@ export const Services = (props) => {
                 slidesToScroll: 3,
                 infinite: true,
                 dots: false,
-                // arrows: true,
-                // prevArrow: document.getElementsByClassName("a-left"),
               }
             },
             {
@@ -41,10 +36,7 @@ export const Services = (props) => {
               settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
-                // initialSlide: 2
                 infinite: true,
-                // arrows: true,
-                // className: 'heading_after_our_services_section',
               }
             },
             {
@@ -52,8 +44,6 @@ export const Services = (props) => {
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                // arrows: true,
-                // className: 'heading_after_our_services_section',
             
               }
             }

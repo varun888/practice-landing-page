@@ -31,7 +31,7 @@ export const Banner = (props) => {
                                 <div className="divider_1st_heading"></div>
                                 <p className="paragraph_banner_left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br></br> eiusmod tempor incididunt ut labore et dolore magna aliqua.<br></br> Quis ipsum suspendisse ultrices gravida. Risus commodo<br></br> viverra maecenas accumsan lacus vel facilisis.</p>
                                 <a className="button_learn_more" href="#">Learn more</a>
-                                <a className="button_get_intouch" href="#">Get in touch</a>
+                                <a className="button_get_intouch" href="#">Get in Touch</a>
                             </div>
                         </Col>
                         <Col md="6">
